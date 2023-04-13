@@ -21,7 +21,7 @@
 header{
     text-align: center;
     min-height: 150px;
-    min-width: 500px;
+    min-width: 480px;
     padding-top: 20px;
     background-image: linear-gradient(to bottom, var(--color3), var(--color5));
     color: white;
@@ -46,7 +46,7 @@ p#subtitle{
 }
 
 nav{
-    min-width: 490px;
+    min-width: 470px;
     padding: 5px;
     background-color: var(--color5);
     color: white;
@@ -88,7 +88,7 @@ main {
     margin: auto;
     padding: 5px 8px;
     max-width: 1000px;
-    min-width: 500px;
+    min-width: 465px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
     border-bottom-left-radius: 10px;
@@ -174,6 +174,18 @@ ul{
 @media screen and (max-width:800px) {
     ul {
       columns: 1;
+    }
+
+    header {
+        margin: 0 auto;
+    }
+
+    nav{
+        margin: 0 auto;
+    }
+
+    main {
+        margin: 0 auto;
     }
 }
 
