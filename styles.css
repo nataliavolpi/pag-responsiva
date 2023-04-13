@@ -21,7 +21,7 @@
 header{
     text-align: center;
     min-height: 150px;
-    min-width: 430px;
+    min-width: 500px;
     padding-top: 20px;
     background-image: linear-gradient(to bottom, var(--color3), var(--color5));
     color: white;
@@ -46,7 +46,7 @@ p#subtitle{
 }
 
 nav{
-    min-width: 420px;
+    min-width: 490px;
     padding: 5px;
     background-color: var(--color5);
     color: white;
@@ -86,10 +86,10 @@ picture{
 main {
     background-color: white;
     margin: auto;
-    padding: 5px 10px;
+    padding: 5px 8px;
     max-width: 1000px;
     min-width: 500px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -180,7 +180,12 @@ ul{
 footer{
     background-color: #063d1e;
     color: white;
+    max-height: 40px;
     font-size: 0.8em;
+    padding: 1px;
     text-align: center;
-    padding: 2px;
+}
+
+footer > p{
+    text-align: center;
 }
